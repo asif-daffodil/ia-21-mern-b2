@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$headingColor: #31f;
+
+@mixin commonHeaderCss ($ta: center, $td: line-through) {
+    text-align: $ta;
+    text-decoration: $td;
+    font-weight: bolder;
+    color: $headingColor;
+}
+
+.h1{
+    @include commonHeaderCss(center, underline);
+}
+
+.h2 {
+    @include commonHeaderCss(center, none);
+}
+
+.h3 {
+    @include commonHeaderCss();
+}
+
+.main {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >.pain{
+        width: 100px;
+        height: 100px;
+        background-color: #0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >.rain {
+            width: 50px;
+            height: 50px;
+            background-color: #00f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background-color: #f0f;
+                &::before{
+                    content: "BYE";
+                }
+            }
+            &::before{
+                content: "HI";
+                color: #fff;
+            }
+        }
+    }
+}
+
+.dhaka {
+    @extend .main;
+    background: #000;
+    >.pain {
+        background: #fff;
+    }
+}

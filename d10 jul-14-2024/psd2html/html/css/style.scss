@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url("../fonts/Helvetica.ttf");
+}
+
+@font-face {
+    font-family: 'Helvetica bold';
+    src: url("../fonts/Helvetica-Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+.container {
+    width: 850px;
+    height: 1800px;
+    margin: 0 auto;
+    >.header{
+        width: 100%;
+        height: 144px;
+        background: #0085cf;
+        display: grid;
+        align-items: center;
+        padding: 0 48px;
+    }
+    >.banner{
+        background: url("../images/banner.jpg") no-repeat center;
+        height: 392px;
+        display: grid;
+        place-items: center;
+        >div{
+            width: 560px;
+            height: 160px;
+            background: rgba(255,255,255,0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #0085cf;
+            >h1{
+                font-family: 'Helvetica bold';
+                font-size: 35px;
+                text-align: center;
+                color: #0085cf;
+            }
+            >p{
+                font-size: 23px;
+                text-align: center;
+            }
+        }
+    }
+    >.upcomming{
+        text-align: center;
+        font-size: 30px;
+        color: #0085cf;
+        margin-top: 4px;
+        margin-bottom: 20px;
+        font-family: 'Helvetica bold';
+    }
+    >.events{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 52px;
+        margin-bottom: 45px;
+        >div{
+            >h2{
+                font-size: 20px;
+                font-family: 'Helvetica bold';
+                margin-top: 14px;
+            }
+            >button{
+                background: #0085cf;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    >.reminder{
+        background: #0085cf;
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-bottom: 44px;
+        >h3{
+            font-size: 20px;
+            font-family: 'Helvetica bold';
+            margin-bottom: 10px;
+        }
+        >p{
+            font-size: 16px;
+        }
+    }
+    >.latest{
+        text-align: center;
+        font-size: 30px;    
+        font-family: 'Helvetica bold';
+        color: #0085cf;
+        margin-bottom: 28px;
+    }
+    >.updates{
+        margin-bottom: 60px;
+        >div{
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 2fr;
+            &:first-child{
+                margin-bottom: 34px;
+            }
+            >.left{
+                >img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            >.right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                >h4{
+                    font-size: 20px;
+                    font-family: 'Helvetica bold';
+                    margin-top: 14px;
+                }
+                >p{
+                    font-size: 18px;
+                    margin: 6px 0;
+                }
+                >button{
+                    background: #0085cf;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    display: block;
+                    width: max-content;
+                }
+            }
+        }
+    }
+    >.follow-us{
+        text-align: center;
+        background: #0085cf;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        >h6{
+            font-size: 17.16px;
+            margin-bottom: 10px;
+        }
+    }
+    .footer{
+        height: 56px;
+        >ul{
+            list-style: none;
+            display: flex;
+            text-align: center;
+            >li{
+                width: 100%;
+                a{
+                    text-decoration: none;
+                    display: block;
+                    font-size: 14px;
+                    color: #000;
+                    line-height: 56px;
+                }
+            }
+        }
+    }
+}

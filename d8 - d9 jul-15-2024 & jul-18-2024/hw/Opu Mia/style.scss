@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containear{
+    width: 800px;
+    height: 2280px;
+    margin: 0 auto;
+    background: url(image/bacground.jpg) no-repeat, center;
+    background-size: cover;
+    >.container01{
+        width: 622px;
+        height:100%;
+        background-color: rgb(251, 251, 251);
+        margin-left: 90px;
+    >.navbar{
+        width:100%;
+        height:80px;
+        background-color: #274254;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        >.opa{
+            border: 1px solid transparent;
+            background-color: rgb(255, 255, 255);
+            width: 320px;
+            height: 40px;        
+            >h1{
+                text-align: center;
+                color: #286C9E;
+                
+            }
+        }
+    }
+    >.news{ 
+        width:100%;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 8px;
+        display: flex;
+        >.news-text{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:#286C9E ;
+            margin: 20px;
+            >p{
+                width: 300px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            >.but01{
+                width: 140px;
+                height: 30px;
+                padding: 5px;
+                color: rgb(255, 255, 255);
+                background-color:#33424E ;
+                border-radius: 5px;
+                border: none;
+            }
+            >.but01:hover{
+                background: linear-gradient( to right, rgb(153, 0, 0), rgb(85, 85, 176), rgb(232, 153, 8));
+                color: rgb(222, 193, 32);
+            }
+        }
+            >.news-img{
+                background: url(image/newes.jpg) no-repeat;
+                background-size: contain;
+                width: 300px;
+                height: 150px;
+                margin-top: 30px;
+                margin-right: 30px;
+            }
+        }
+        >.bord{
+            border: 2px solid rgb(122, 120, 120);
+            width: 100%;
+            height: 40px;
+            margin-bottom: 30px;
+            background-color: rgb(242, 238, 238);
+            >h3{
+                margin: 8px 0px 0px 20px;
+                color: #286C9E;
+
+            }
+        }
+        >.product{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            >.area{
+                border: 1px solid rgb(230, 225, 225);
+                width:280px;
+                height: 200px;
+                margin-left: 20px;
+                >.product01{
+                background: url(image/laptop.jpg) no-repeat;
+                background-size: contain;
+                height: 200px;
+                margin-bottom: 20px;
+                }
+                >h3{
+                    margin-left: 10px;
+                    padding: 2px;
+                    color: #286C9E;
+                }
+            }
+            >.text{
+                width: 300px;
+                height: 310px;
+                margin-left: 30px;
+                >ul{
+                    margin-left: 18px;
+                }
+                >.more{
+                    color:#3479AB ;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+
+            }
+        }
+        >.product{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            >.area{
+                border: 1px solid rgb(230, 225, 225);
+                width:280px;
+                height: 270px;
+                margin-left: 20px;
+                >.product02{
+                background: url(image/camera.jpeg) no-repeat;
+                background-size: contain;
+                height: 200px;
+                margin-bottom: 20px;
+                }
+            }
+        }
+        >.item{
+            display: flex;
+            justify-content:space-evenly;
+            width: 100%;
+            height: 240px;
+            margin-bottom: 30px;
+            >.item-image{
+                border: 1px solid gainsboro;
+                background: url(image/cook-pot.jpg) no-repeat,center;
+                background-size:contain;
+                >.text{
+                    margin-top:100%;
+                    .sav{
+                        color:#3479AB ;
+                    }
+                }
+                
+            }
+            >.item-image01{
+                border: 1px solid gainsboro;
+                background: url(image/coffee.jpg)no-repeat;
+                background-size: contain;
+                >.text{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+            >.item-image02{
+                border: 1px solid gainsboro;
+                background: url(image/sushi-nagiri.jpg)no-repeat;
+                background-size:contain;
+                >.text{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+            >.item-image03{
+                border: 1px solid gainsboro;
+                background: url(image/drink.jpg) no-repeat;
+                background-size: contain;
+                >.text{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+        } 
+        >.item{
+            display: flex;
+            justify-content:space-evenly;
+            width: 100%;
+            height: 240px;
+            margin-bottom: 20px;
+            >.item01{
+                border: 1px solid gainsboro;
+                background: url(image/cherry.webp) no-repeat,center;
+                background-size:contain;
+                >.text01{
+                    margin-top:100%;
+                    .sav{
+                        color:#3479AB ;
+                    }
+                }
+                
+            }
+            >.item02{
+                border: 1px solid gainsboro;
+                background: url(image/burger.jpg)no-repeat;
+                background-size: contain;
+                >.text02{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+            >.item03{
+                border: 1px solid gainsboro;
+                background: url(image/milk.jpg)no-repeat;
+                background-size:contain;
+                >.text03{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+            >.item04{
+                border: 1px solid gainsboro;
+                background: url(image/pngtree-french.png) no-repeat;
+                background-size: contain;
+                >.text04{
+                    margin-top: 100%;
+                    >.sav{
+                        color:#3479AB ;
+                    }
+                }
+            }
+        } 
+
+        >.more{
+            color:#3479AB ;
+            margin-left: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }  
+        >.last-product{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-bottom: 20px;
+            >.last-area{
+                width:280px;
+                height: 140px;
+                margin-left: 20px;
+                >.last-product01{
+                background: url(image/mern.jpeg) no-repeat;
+                background-size: contain;
+                height: 200px;
+                
+                }
+                >h3{
+                    margin-left: 10px;
+                    padding: 2px;
+                    color: #286C9E;
+                }
+            }
+            >.last-text{
+                width: 300px;
+                height: 200px;
+                margin-left: 30px;
+                >ul{
+                    margin-left: 18px;
+                }
+                >.last{
+                    color:#3479AB ;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+
+            }
+        } 
+        >.footer{
+
+            >.footer-image{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 20px;
+                >.footer-loggo01{
+                    background: url(image/loggo01.avif) no-repeat;
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+                }
+                >.footer-loggo02{
+                    background: url(image/loggo02.avif) no-repeat;
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+                }
+                    >.footer-loggo03{
+                    background: url(image/loggo03.jpg) no-repeat;
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+                }
+                >.footer-loggo04{
+                    background: url(image/loggo04.webp)no-repeat;
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+                }
+                >.footer-loggo05{
+                    background: url(image/loggo05.webp)no-repeat;
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            >.footer-container{
+                width: 100%;
+                height:128px;
+                background-color: #274254;
+                display: flex;
+                >.left-said{
+                    width:400px;
+                    color:#8B969D ;
+                    margin-left: 20px;
+                    >h1{
+                        padding-top: 14px;
+                    }
+                    >p{
+                        text-align: left;
+                        >a{
+                            text-decoration: none;
+                            color: #8B969D;
+                        }
+                    }
+                }
+                >.right-said{
+                    text-align: end;
+                    color: #8B969D;
+                    margin: 10px;
+                    
+                    >a{
+                        padding: 10px;
+                        font-size: 30px;
+                        color: #8B969D;
+                    
+                    }
+                    >p{
+                        font-size: 16px;
+                        
+                    }
+                }
+                
+            } 
+        }   
+    }
+    
+}

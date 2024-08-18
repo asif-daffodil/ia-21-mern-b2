@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@font-face {
+    font-family: "hero mia";
+    src: url(/Font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    background:url(./image/pexels-pixabay-60597.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.introduce{
+    width: 250px;
+    background-color: pink;
+    margin: 20px;
+    padding: 10px;
+    border: 5px dashed peru;
+}
+.background{
+    width:200px;
+    background: linear-gradient(pink, rgb(171, 245, 97),rgb(239, 106, 237));
+    padding: 10px;
+    
+}
+.backgroundWithpicture{
+    width: 250px;
+    background: url("./image/Rihan.jpg");
+    background-size: 100% 100%;
+    padding: 10px;
+}
+.text-style{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cssfont{
+   font-family: "Anton SC", sans-serif;
+}
+
+.link{
+    font-family: 'hero mia'
+}

@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); */
+
+@font-face {
+    font-family: "hero mia";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "hero mia";
+}
+
+.dhaka {
+    width: 250px;
+    /* background: linear-gradient(to top right, rgba(255,0,0,0.5), rgba(255, 255, 255, 0.5), rgba(0, 0, 255, 0.5)); */
+    /* background: radial-gradient( red 30%, green 60%, blue); */
+    background: linear-gradient(to top right, rgba(255,0,0,0.5), rgba(255, 255, 255, 0.5), rgba(0, 0, 255, 0.5)),url("../images/GreenGrass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black, -10px -10px 10px black, 0px 0px 30px black inset;
+    margin: 20px auto;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    border: 5px solid black;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+}
+
+.khulna {
+    width: 100%;
+    height: 100px;
+    margin-top: 300px;
+    background: url("../images/largeBg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rajshahi {
+    width: 100%;
+    height: 100vh;
+}

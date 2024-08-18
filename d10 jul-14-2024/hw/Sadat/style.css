@@ -1,0 +1,63 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(mare-fa-bene-2.jpg);
+    
+    height: 1100px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    width:200px ;
+    float:left ;
+    height:73px ;
+    cursor: pointer;
+
+}
+.icon{
+    background: -moz-linear-gradient(red,green,yellow);
+    color:blueviolet;
+  font-size: 35px;
+  font-family: Arial;
+  padding-right: 0px;
+  float: left;
+  padding-top: 5px;
+}
+.main{
+    background: black  ;
+    padding-right: 10px ;
+    text-align: block ;
+   
+
+    
+}
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.course{
+    padding-right: 40px;
+    margin-right: 40px;
+}
+button{
+    color: blueviolet;
+    margin-left: 80px;
+    padding: 10px 10px 10px ;
+    
+}

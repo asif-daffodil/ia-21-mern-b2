@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(pexels-bri-schneiter-28802-346529.jpg);
+    background-size: 100%;
+}
+.result{
+    text-align: center;
+    margin-top: 15px;
+    color: burlywood;
+    text-shadow: 2px 2px black;  
+    text-decoration: underline;
+}
+table{
+    width: 1000px;
+    margin:0 auto;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+form{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+.results{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}

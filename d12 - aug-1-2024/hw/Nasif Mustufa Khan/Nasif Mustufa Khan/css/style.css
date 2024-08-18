@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 5px;
+    width: 80px;
+}
+
+
+.abacus{
+    font-size: 22px;
+    color: #3E3E3E;
+}
+.nav-item{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: 400;
+}
+.para{
+    font-size: 16px;
+}
+
+.gapping{
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.paras{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+
+
+.iconsGap{
+    padding-top: 5px;
+}
+
+
+.iconsGaps{
+    padding-top: 10px;
+}
+
+.dolar{
+    padding-left: 15px;
+}
+
+.position{
+    position: relative;
+    bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.radius{
+    border-radius: 30px;
+}
+
+.gaps{
+    padding-top: 90px;
+}
+
+.pictures{
+    width: 100px;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.textsColor{
+    color: #848199;
+    font-size: 16px;
+}
+
+

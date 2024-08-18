@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btag{
+    display: inline-block;
+    width: 200px;
+    background: red;
+}
+.itag{
+    display: none;
+}
+
+.main {
+    width: 300px;
+    height: 150px;
+    background: limegreen;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.rain{
+    width: 50%;
+    height: 50%;
+    background: yellow;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+.pain {
+    width: 300px;
+    height: 150px;
+    background: dodgerblue;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    z-index: -1;
+}
+
+.gain {
+    width: 300px;
+    height: 150px;
+    background: orange;
+    transition: 1s;
+}
+.gain:hover{
+    /* transform: translate(40px, 40px); */
+    /* transform: rotate(360deg); */
+    /* transform: scale(0.8); */
+    /* transform: skewY(-20deg); */
+    transform: translate(40px, 40px) rotate(360deg) scale(0.8) skewY(-20deg);
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Logo</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" placeholder="Search..." class="form-control">
+                        <button type="submit" class="btn btn-primary"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- carousel start -->
+    <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://via.placeholder.com/1800x720?text=First%20Slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://via.placeholder.com/1800x720?text=Second%20Slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the Second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="https://via.placeholder.com/1800x720?text=Third%20Slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the Third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel end -->
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Card Image" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aliquid ad, et in ratione
+                            veniam, velit possimus odio asperiores beatae iure voluptates facere est tempora animi, a error
+                            excepturi tenetur.
+                        </p>
+                        <button href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" >Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aliquid ad, et in ratione
+                            veniam, velit possimus odio asperiores beatae iure voluptates facere est tempora animi, a error
+                            excepturi tenetur.
+                        </p>
+                        <button href="" class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aliquid ad, et in ratione
+                            veniam, velit possimus odio asperiores beatae iure voluptates facere est tempora animi, a error
+                            excepturi tenetur.
+                        </p>
+                        <button href="" class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aliquid ad, et in ratione
+                            veniam, velit possimus odio asperiores beatae iure voluptates facere est tempora animi, a error
+                            excepturi tenetur.
+                        </p>
+                        <button href="" class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 display-4 text-center py-5">Contact</div>
+            <div class="col-md-3">
+                <h2 class="mb-3">Send Message</h2>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                            placeholder="Your message" style="resize: none"></textarea>
+                    </div>
+                    <div class="form-check form-check-inline mb-3">
+                        <label for="robot" class="form-check-label">
+                            <input type="checkbox" id="robot" class="form-check-input"> I'm not a robot
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="mb-3">Location</h2>
+                <table class="table table-striped border table-hover">
+                    <thead>
+                        <tr>
+                            <th>S.N.</th>
+                            <th>Location</th>
+                            <th>Address</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Kathmandu</td>
+                            <td>Kathmandu, Nepal</td>
+                            <td>01-1234567</td>
+                            <td>con@bix.com</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Pokhara</td>
+                            <td>Pokhara, Nepal</td>
+                            <td>01-1234567</td>
+                            <td>con@bix.com</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Chitwan</td>
+                            <td>Chitwan, Nepal</td>
+                            <td>01-1234567</td>
+                            <td>con@bix.com</td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Butwal</td>
+                            <td>Butwal, Nepal</td>
+                            <td>01-1234567</td>
+                            <td>con@bix.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="" class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item active">
+                            <a href="" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="" class="page-link">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <h2 class="mb-3">Our Skills</h2>
+                <div class="mb-3">
+                    HTML
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    CSS
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    Bootstrap
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    JavaScript
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    React.js
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    Node.js
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-secondary progress-bar-animated" style="width: 40%;">40%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    Express.js
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated" style="width: 30%;">30%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    MongoDB
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal start -->
+     <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Heading
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate natus quisquam debitis expedita commodi mollitia perspiciatis, voluptates voluptatibus, repellat quo suscipit soluta ratione vitae eveniet fugit totam. Distinctio quibusdam nulla beatae error rem odio, ratione pariatur maxime dicta inventore corporis?
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

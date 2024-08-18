@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+*{
+  font-family: "Merienda", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.626),rgba(0, 0, 0, 0.889)),url(DIPTI.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+form {
+  background-color: #958e8e6f;
+  padding: 10px;
+  border-radius: 25px;
+  width: 500px;
+  margin:50px auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.inp, .bdate, .city, .gen, .hob, .addr {
+  margin: 15px auto;
+}
+
+.inpname {
+  margin-bottom: 20px;
+}
+
+.inp input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+}
+
+.hob input,.gen input {
+  margin-right: 5px;
+}
+strong
+{
+  color: white;
+  margin-right: 20px;
+}
+.sub {
+  width: 100%;
+  background-color: #3763a0;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px  auto;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  border-radius: 15px;
+}

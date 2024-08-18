@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c2d41;
+}
+.container{
+    width: 800px;
+    height: 1998px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    height: 69px;
+    background-color: #394b57;
+    padding: 0 40px;
+    display: flex;
+}
+.header img{
+    position: relative;
+    top: 9px;
+}
+.header {
+color: white;
+font-family: arial;
+font-size: 20px;
+position: relative;
+top: 10px;
+
+}
+.main-2 p{
+    color: rgb(192,192,192);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 420px;
+    top: 16px;
+}
+.color{
+    color: #5789ae;
+}
+/* main style start */
+.title-4{
+    background-color: #dbdbdb;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col-1{
+   grid-template-columns: 2fr;
+   position: relative;
+   top: 30px;
+}
+.col-1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e83ab;
+    border-bottom: 15px;
+}
+.col-1 p{
+    color: 	rgb(128,128,128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+.btn-2{
+    position: relative;
+    top: 40px;
+    border: none;
+    background-color: #394b57;
+    color: white;
+    width: 167px;
+    height: 37px;
+    border-radius: 5px;
+}
+.title-5 img{
+    position: relative;
+    left: 86px;
+    top: 10px;
+}
+.btn-77{
+    width: 800px;
+    height: 41px;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 32px;
+    color: #394b57;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*main style end */
+/* card style start */
+.card-1{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+}
+.card001{
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    left: 30px;
+    border: 1px solid 	rgb(128,128,128);
+    padding: 10px;
+}
+.card001 img{
+    height: 165px;
+    width: 222px;
+}
+.card001 p{
+    color: 	rgb(105,105,105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.span-1{
+    color:#5789ae;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.title-94{
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 70px;
+}
+.title-94 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.title-94 p{
+    color: 	rgb(105,105,105);
+    position: relative;
+    top: 25px;
+}
+ul{
+    color: 	rgb(105,105,105);
+    position: relative;
+    top: 45px;
+}
+.span-2{
+    position: relative;
+    top: 60px;
+    color: #4f8bb6;
+}
+/* card style end */
+/*main-card style start */
+.main-card{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    position: relative;
+}
+.main04{
+    border: 1px solid #dddd;
+    padding: 20px;
+    text-align: left;
+    margin: 15px;
+    position: relative;
+    left: 20px;
+}
+.main-card-2{
+    border: 1px solid #dddd;
+    padding: 20px;
+    text-align: left;
+    margin: 15px;
+    position: relative;
+    left: 20px;
+}
+.title-64 p{
+    position: relative;
+    left: -10px;
+    font-weight: 600;
+    color: rgb(105,105,105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: 8px;
+}
+.main04 h6{
+   font-size: 14px;
+   position: relative;
+   top: 10px;
+   color:rgb(105,105,105) ;
+   font-family: Arial, Helvetica, sans-serif;
+   left: -10px;
+}
+.save{
+    color: #4f8bb6;
+}
+#cd{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+#Homme{
+    position: relative;
+    top: -5px;
+}
+#Home-02 img{
+    position: relative;
+    top: 10px;
+}
+#Home-02{
+    position: relative;
+    left: 80px;
+    border: 1px solid #dddd;
+    padding: 20px;
+}
+#Home-03{
+    position: relative;
+    left: 60px;
+    border: 1px solid #dddd;
+    padding: 30px;
+}
+#Home2{
+    position: relative;
+    left: 40px;
+    border: 1px solid #dddd;
+    padding: 30px;
+}
+.cd2{
+    position: relative;
+    top: 30px;
+}
+.cd-4{
+    position: relative;
+    top: 20px;
+}
+/*main-card style end */
+/*project style start */
+.project{
+    background-color: white;
+    display: flex;
+}
+.img-75 img{
+    padding: 20px;
+    margin: 20px;
+}
+#img-4 img{
+    position: relative;
+    top: 15px;
+}
+/*project style end */
+/*footer style start */
+.footer{
+    background-color: #394b58;
+    display: flex;
+    height: 10vh;
+}
+.footer-1{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.footer-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dddd;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+    text-decoration: underline;
+}
+.footer-1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dddd;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    text-decoration: underline;
+}
+.footer-1 img{
+    position: relative;
+    top: 5px;
+}
+.class-2 {
+    color: #dddd;
+    top: -5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foooter-3{
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.foooter-3 h6{
+    color: #dddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.foooter-3 p{
+    color: #dddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.icon-2{
+    color: #4e83ab;
+    position: relative;
+    left: 150px;
+    font-size: 18px;
+}
+/*footer style end */

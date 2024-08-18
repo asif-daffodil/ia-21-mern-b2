@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="submit_form.php">
+    <h1>Sign Up</h1>
+    <div class="inp">
+      <div class="inpname">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+      </div>
+      <input type="email" placeholder="Your Email Address" required> 
+      <input type="password" placeholder="New Password" required>  
+      <div class="bdate">
+        <label for="date"><strong>Birthday</strong></label>
+        <input id="date" type="date" required>
+      </div>
+      <div class="city">
+        <select name="city" id="City" required>
+          <option value="">Select Your City</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Gazipur">Gazipur</option>
+          <option value="Foridpur">Foridpur</option>
+          <option value="Mymenshing">Mymenshing</option>
+          <option value="Rongpur">Rongpur</option>
+          <option value="Rajshahi">Rajshahi</option>
+          <option value="Cox's Bazar">Cox's Bazar</option>
+        </select>
+      </div>
+      <div class="addr">
+        <textarea name="address" id="address" cols="55" rows="10" placeholder="Enter Your Address" required></textarea>
+      </div>
+    </div>
+    <div class="gen">
+      <strong>Gender</strong>
+      <input id="fe" type="radio" name="gender" value="female" required>
+      <label for="fe">Female</label>
+      <input id="me" type="radio" name="gender" value="male" required>
+      <label for="me">Male</label>
+    </div>
+    <div class="hob">
+      <strong>Hobby</strong>
+        <input id="read" type="checkbox" name="hobby" value="reading">
+        <label for="read">Reading</label> 
+        <input id="write" type="checkbox" name="hobby" value="writing">
+        <label for="write">Writing</label> 
+        <input id="cycle" type="checkbox" name="hobby" value="cycling">
+        <label for="cycle">Cycling</label> 
+        <input id="code" type="checkbox" name="hobby" value="coding">
+        <label for="code">Coding</label> 
+    </div>
+    <input class="sub" type="submit" value="Submit">
+  </form>
+</body>
+</html>

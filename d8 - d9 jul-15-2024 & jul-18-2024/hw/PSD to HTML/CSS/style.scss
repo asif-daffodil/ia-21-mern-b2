@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: 'MT';
+    src: url(Fonts/ARIALMTMEDIUM.TTF);
+}
+
+@font-face {
+    font-family: 'TB';
+    src: url(Fonts/trebucbd.ttf);
+}
+
+@font-face {
+    font-family: 'MTB';
+    src: url(Fonts/ARIALBOLDMT.OTF);
+}
+
+* {
+    font-family: 'MT';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c2d41;
+}
+
+@mixin commonheaderCss() {
+    font-size: 16px;
+    color: #394b58da;
+    font-family: 'MTB';
+    padding: 12px 0px 12px 15px;
+}
+
+#container {
+    width: 632px;
+    height: 1941px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+
+    >.head {
+        height: 35px;
+        background-color: #273b45;
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+        align-items: center;
+
+        >.h_left span,
+        a {
+            color: #85acb3;
+            font-family: 'MTB';
+            font-size: 11px;
+        }
+
+        >.h_right ul {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            color: #85acb3;
+            font-size: 12px;
+            list-style: none;
+            >li i{
+                font-size: 10px;
+                font-weight: bolder;
+            }
+            >li a {
+                padding: 6px;
+                text-decoration: none;
+            }
+        }
+    }
+    // header
+    >.header {
+        width: 100%;
+        height: 79px;
+        background-color: #394b57;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        >.logo {
+            padding-left: 22px;
+
+        }
+
+        >.november {
+            color: #959fa6;
+            font-family: 'MT';
+            padding-right: 22px;
+            font-size: 17px;
+        }
+    }
+    // ..................END.................
+
+    // Feature
+    .Featured_Area {
+        background-image: url("images/Hero area/BACK.png");
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0px;
+        height: 275px;
+        width: 100%;
+        border-bottom: 1.5px solid #cfcfcf;
+
+        >.Feature_text {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            >h1 {
+                font-size: 30.95px;
+                color: #286c9e;
+                font-family: 'TB';
+            }
+
+            >p {
+                font-size: 12px;
+                color: #7a878d;
+                width: 110%;
+            }
+
+            >a {
+                font-size: 13px;
+                background-color: #364752;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                width: 167px;
+                text-decoration: none;
+                text-align: center;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 500;
+            }
+        }
+
+        >.desktop_img {
+            position: relative;
+            top: 20px;
+        }
+    }
+    // ..................END.................
+
+    // Content
+    .Content {
+        background-color: #f3f3f3;
+        height: 1430px;
+
+        >.Entry_1 {
+            height: 495px;
+
+            >h1 {
+
+                @include commonheaderCss();
+            }
+
+            >.f_products {
+                background-color: #ffffff;
+                height: 450px;
+                border-top: 1.5px solid #cfcfcf;
+                border-bottom: 1.5px solid #cfcfcf;
+
+                >.item {
+                    margin: 30px 0px;
+                    display: flex;
+                    justify-content: space-around;
+
+                    >.i_img {
+                        height: 185px;
+                        border: 1px solid #e2e0e0;
+                        width: 182px;
+
+                        >.price {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            margin-left: 10px;
+
+                            >strong {
+                                color: #808080;
+                                font-family: 'MT';
+                                font-size: 12.6px;
+                            }
+
+                            >span {
+                                color: #3479ab;
+                                font-family: 'MT';
+                                font-size: 12.16px;
+                            }
+                        }
+
+                    }
+
+                    .i_info {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        width: 398px;
+
+                        >h1 {
+                            font-family: 'MT';
+                            font-size: 16px;
+                            color: #000000;
+                        }
+
+                        >p {
+                            font-family: 'MT';
+                            font-size: 12px;
+                            color: #808080;
+                        }
+
+                        >ul li {
+                            font-size: 12px;
+                            color: #808080;
+                            list-style: disc;
+                            margin-left: 10px;
+                        }
+
+                        >a {
+                            text-decoration: none;
+                            color: #3479ab;
+                            font-family: 'MT';
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        >.Entry_2 {
+            height: 562px;
+
+            >h1 {
+                @include commonheaderCss();
+            }
+
+            >.l_Products {
+                background-color: #ffffff;
+                height: 520px;
+                border-top: 1.5px solid #cfcfcf;
+                border-bottom: 1.5px solid #cfcfcf;
+
+                >.item_row {
+                    height: 210px;
+                    width: 600px;
+                    border: 1px solid #cfcfcf;
+                    margin:30px auto;
+                    display: flex;
+                    align-items: center;
+
+                    >.L_product_item {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        border-right: 1px solid #cfcfcf;
+
+                        >.L_image{
+                            margin:10px  auto;
+                            height:100px;
+                        }
+                        >.item_info{
+                                width: 95px;
+                                height: 75px;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                margin: 0 auto;
+                            >strong{
+                                font-size: 12.16px;
+                                font-family: 'MTB';
+                                color: #808080;
+                                
+                            }
+                            >.item_price{
+
+                                >span{
+                                    font-size: 12.16px;
+                                    font-family: 'MT';
+                                    color: #777777;
+                                }
+                                >span:nth-child(2)
+                                {
+                                    color: #3479ab;
+                                }
+                                
+                            }
+
+                        }
+                    }
+                    >.L_product_item:last-child{
+                        border: none;
+                    }
+                }
+                >.item_row:nth-child(2){
+                    margin-top: -10px;
+                    margin-bottom: 0px;
+                }
+                >a{
+                    text-decoration: none;
+                    color: #3479ab;
+                    font-size: 12px;
+                    position: relative;
+                    left: 20px;
+                    top: 5px;
+                    font-weight: 500;
+                    font-family: 'MT';
+                }
+            }
+        }
+        >.Entry_3{
+            height: 239px;
+            >h1{
+                @include commonheaderCss();
+            }
+            >.Product_r{
+                height: 197px;
+                background-color: #ffffff;
+                border-top: 1.5px solid #cfcfcf;
+                border-bottom: 1.5px solid #cfcfcf;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .review_info{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                width: 398px;
+                >h1 {
+                    font-family: 'MT';
+                    font-size: 16px;
+                    color: #000000;
+                }
+
+                >p {
+                    font-family: 'MT';
+                    font-size: 12px;
+                    color: #808080;
+                }
+
+                >a {
+                    text-decoration: none;
+                    color: #3479ab;
+                    font-family: 'MT';
+                    font-size: 12px;
+                }
+                
+            }
+        }
+        >.Entry_4{
+            height: 116px;
+            >h1{
+                @include commonheaderCss();
+            }
+            .clients_list{
+                height: 95px;
+                background-color: #ffffff;
+                border-top: 1.5px solid #cfcfcf;
+                border-bottom: 1.5px solid #cfcfcf;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+    // ..................END.................
+
+    // Footer
+    footer{
+        height: 121px;
+        background-color: #394b58;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 40px;
+        >.f_left{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 185px;
+            >.f_left_text{
+                font-family: 'MT';
+                font-size: 11px;
+                font-weight: 500;
+                line-height: 20px;
+                >p{
+                    color: #828d96;
+                    
+                }
+                >a,span{
+                    color: #919faa;
+                }
+            }
+            
+        }
+        >.f_right{
+            display: flex;
+            flex-direction: column; 
+            width: 325px;
+            text-align: right;
+            gap: 25px;
+            >.socal_icon{
+                width: 150px;
+                height: 20px;
+                display: flex;
+                justify-content: space-around;
+                align-self:self-end;
+
+            }
+            >.f_right_text{
+                font-family: 'MT';
+                font-size: 11px;
+                
+                >p{
+                    color: #828d96;
+                    font-weight: 100;
+                    line-height: 20px;
+                    
+                    >a{
+                        display: inline;
+                        color: #919faa;
+                    }
+                }
+            }
+
+        }
+    }
+    // ..................END.................
+
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    background-color: aqua;
+    margin: 50px auto;
+    font-family: "Open Sans", sans-serif;
+    border: 5px solid black;
+}
+
+.center{
+    text-align: center;
+}
+
+.c{
+    margin-left: 200px;
+}
+

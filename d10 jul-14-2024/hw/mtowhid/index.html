@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Student Management System</title>
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <h1>Student Management System</h1>
+        </div>
+    </header>
+
+    <div class="container" id="main-content">
+        <section id="students-list">
+            <h2>Students List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Number</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COMT-200523</td>
+                        <td>Md. Abdullah Towhid</td>
+                        <td>mtowhid-21ia@dipti.com.bd</td>
+                        <td>01621902910</td>
+                        <td>CSE</td>
+                    </tr>  <tr>
+                        <td>COMT-200534</td>
+                        <td>Saidul Badhon</td>
+                        <td>saidul-21ia@dipti.com.bd</td>
+                        <td>01712345678</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>COMT-200535</td>
+                        <td>Adnan Khan</td>
+                        <td>adnan-21ia@dipti.com.bd</td>
+                        <td>01712345679</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>COMT-200536</td>
+                        <td>Shahriar Shuvo</td>
+                        <td>shahriar-21ia@dipti.com.bd</td>
+                        <td>01712345680</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>COMT-200537</td>
+                        <td>Emon Khan</td>
+                        <td>emon-21ia@dipti.com.bd</td>
+                        <td>01712345681</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>COMT-200538</td>
+                        <td>Arifin Mia</td>
+                        <td>arifin-21ia@dipti.com.bd</td>
+                        <td>01712345682</td>
+                        <td>CSE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="form-container">
+            <h2>Student Form</h2>
+            <form>
+                <label for="avatar">Avatar</label>
+                <input type="file" id="avatar" name="avatar">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="number">Number</label>
+                <input type="text" id="number" name="number">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" style="display: inline;">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" style="display: inline;">Female</label>
+
+                <label>Hobbies</label>
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading" style="display: inline;">Reading</label>
+                <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+                <label for="traveling" style="display: inline;">Traveling</label>
+                <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                <label for="sports" style="display: inline;">Sports</label>
+                <input type="checkbox" id="music" name="hobbies" value="Music">
+                <label for="music" style="display: inline;">Music</label>
+                <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+                <label for="gaming" style="display: inline;">Gaming</label>
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                <label for="coding" style="display: inline;">Coding</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

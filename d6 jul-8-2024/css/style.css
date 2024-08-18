@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    animation: changeColor 2s infinite;
+}
+
+.main > div {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #000000;
+}
+
+.main > div:hover{
+    box-shadow: 0 0 10px #000000;
+}
+
+@media (max-width: 620px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding: 8px;
+        grid-gap: 8px;
+    }
+    .main > div {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 1020px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+        padding: 12px;
+        grid-gap: 12px;
+    }
+    .main > div {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .main {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 16px;
+        grid-gap: 16px;
+    }
+    .main > div {
+        padding: 16px;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        color: #f00;
+    }
+    25% {
+        color: #0f0;
+    }
+    50% {
+        color: #00f;
+    }
+    75% {
+        color: #ff0;
+    }
+    100% {
+        color: #f00;
+    }
+}

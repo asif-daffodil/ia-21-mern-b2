@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.table{
+    margin: auto;
+}
+.two{
+    padding-top: 20px;
+    margin: auto;
+    background-color: rgb(173, 173, 163);
+    height: 320px;
+    width: 380px;
+    text-align: center;
+    
+}
+.one{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 252, 252);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/images/first.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.one p{
+    padding-top: 20px;
+    font-size: large;
+}

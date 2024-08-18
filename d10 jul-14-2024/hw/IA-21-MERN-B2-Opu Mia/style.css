@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: blueviolet;
+}
+
+
+.tab, tr, th, td {
+    border: 1px solid blue;
+    background-color: rgb(26, 52, 52);
+    color: white;
+    margin: auto;
+    padding: 5px;
+}
+
+.p1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(131, 247, 16);
+}
+.div1{
+    margin-left: 35%;
+}
+.div1,.form1{
+    width: 500px;
+    font-size: 20px;
+    
+}
+input{
+    border-radius: 5px;
+    height: 20px;
+}
+.but01{
+    padding: 5px;
+    border: 1px solid white;
+    width: 50px;
+}
+.but1{
+    margin-left: 100px;
+    padding: 5px;
+    border: 1px solid white;
+    width: 50px;
+}
+
+#p01{
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 2pxpx;
+}
+#div01{
+    background-color: black;
+}

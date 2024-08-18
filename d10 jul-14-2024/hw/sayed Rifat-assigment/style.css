@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(network-7862055_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+h2{
+    color: #fff;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+table{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+table, th,td{
+    border: 2px dashed rgb(0,128,0);
+    margin: 0 auto;
+    padding: 15px;
+    width: 710px;
+    height: 70px;
+    background-color: 	rgb(240,230,140);
+    margin-top: 20px;
+    text-align: center;
+}
+th{
+    font-family: "Playwrite DE Grund", cursive;
+}
+td{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.dipti{
+    display: flex;
+    background-color: rgb(240,230,140);
+    margin: 20px;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.date{
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+.text-3 h3{
+    text-align: center;
+    color: black;
+    font-family:"Playwrite DE Grund", cursive;
+    position: relative;
+    left: 220px;
+    top: 150px;
+} 
