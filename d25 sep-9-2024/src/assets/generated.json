@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "66de8c4d70947e71659a1300",
+    "age": 32,
+    "name": "Ramsey Spencer",
+    "gender": "male",
+    "company": "ZILLA",
+    "email": "ramseyspencer@zilla.com",
+    "phone": "+1 (965) 494-3350",
+    "address": "419 Empire Boulevard, Sterling, Idaho, 2378"
+  },
+  {
+    "_id": "66de8c4d94f940ce78036cae",
+    "age": 28,
+    "name": "Pratt Nichols",
+    "gender": "male",
+    "company": "ACCUPRINT",
+    "email": "prattnichols@accuprint.com",
+    "phone": "+1 (919) 554-3353",
+    "address": "872 Fulton Street, Dalton, American Samoa, 7497"
+  },
+  {
+    "_id": "66de8c4d3f446e9d3ac376bf",
+    "age": 20,
+    "name": "Jocelyn Holmes",
+    "gender": "female",
+    "company": "MEGALL",
+    "email": "jocelynholmes@megall.com",
+    "phone": "+1 (878) 411-2456",
+    "address": "304 Livingston Street, Robbins, Utah, 9646"
+  },
+  {
+    "_id": "66de8c4d1e518f945dd17f36",
+    "age": 28,
+    "name": "Farmer Malone",
+    "gender": "male",
+    "company": "ORONOKO",
+    "email": "farmermalone@oronoko.com",
+    "phone": "+1 (813) 530-2353",
+    "address": "873 Lake Avenue, Remington, Kentucky, 8545"
+  },
+  {
+    "_id": "66de8c4df4b495888635cec1",
+    "age": 39,
+    "name": "Leach Carrillo",
+    "gender": "male",
+    "company": "DANCITY",
+    "email": "leachcarrillo@dancity.com",
+    "phone": "+1 (851) 426-3539",
+    "address": "332 Royce Place, Escondida, Minnesota, 8363"
+  },
+  {
+    "_id": "66de8c4d02b224ec6deb76f2",
+    "age": 25,
+    "name": "Rosalie Craig",
+    "gender": "female",
+    "company": "COMSTRUCT",
+    "email": "rosaliecraig@comstruct.com",
+    "phone": "+1 (869) 470-3861",
+    "address": "950 Cyrus Avenue, Graball, Marshall Islands, 6092"
+  },
+  {
+    "_id": "66de8c4d24a996e34978a2d8",
+    "age": 23,
+    "name": "Marisa Gill",
+    "gender": "female",
+    "company": "SPRINGBEE",
+    "email": "marisagill@springbee.com",
+    "phone": "+1 (807) 523-2900",
+    "address": "471 Etna Street, Whitmer, South Dakota, 9683"
+  },
+  {
+    "_id": "66de8c4d781daeda38550589",
+    "age": 26,
+    "name": "Butler Griffith",
+    "gender": "male",
+    "company": "ROCKLOGIC",
+    "email": "butlergriffith@rocklogic.com",
+    "phone": "+1 (864) 581-3885",
+    "address": "441 Forest Place, Cazadero, Pennsylvania, 6428"
+  },
+  {
+    "_id": "66de8c4d4319f4cd92761884",
+    "age": 33,
+    "name": "Vang Cote",
+    "gender": "male",
+    "company": "BESTO",
+    "email": "vangcote@besto.com",
+    "phone": "+1 (919) 484-3822",
+    "address": "743 Veranda Place, Enetai, Tennessee, 9727"
+  },
+  {
+    "_id": "66de8c4da1cc83752411e9fb",
+    "age": 23,
+    "name": "Marjorie Carver",
+    "gender": "female",
+    "company": "GLEAMINK",
+    "email": "marjoriecarver@gleamink.com",
+    "phone": "+1 (927) 600-3259",
+    "address": "690 Louis Place, Haena, North Dakota, 3403"
+  }
+]
