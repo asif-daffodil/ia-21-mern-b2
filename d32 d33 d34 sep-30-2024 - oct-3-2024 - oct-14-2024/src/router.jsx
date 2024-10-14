@@ -7,6 +7,7 @@ import SinglePost from "./Pages/Post/SinglePost";
 import EditPost from "./Pages/Post/EditPost";
 import DeletePost from "./Pages/Post/DeletePost";
 import AddNewPost from "./Pages/Post/AddNewPost";
+import Login from "./Pages/Login";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "/delete-post/:id",
                 element: <DeletePost />,
+            },
+            {
+                path: "/login",
+                element: <Login />,
             }
         ],
     },
