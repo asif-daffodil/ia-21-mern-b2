@@ -55,3 +55,18 @@ app.get("/student/:name?", (req, res) => {
 app.get("/employee", (req, res) => {
     res.send(`Employee ID: ${req.query.id}`);
 });
+
+// Middleware
+const checkAge = (req, res, next) => {
+    if(!req.query.age){
+        res.send("Please provide age");
+    }else if (req.query.age < 18) {
+        res.send("You are not allowed");
+    } else {
+        next();
+    }
+}
+
+app.get("/drink", checkAge, (req, res) => {
+    res.send(`Your age is ${req.query.age}. You are allowed to drink`);
+});
