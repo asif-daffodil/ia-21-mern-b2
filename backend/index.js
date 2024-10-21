@@ -23,6 +23,21 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
+// mongoose
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/mern21');
+
+// schema
+const Schema = mongoose.Schema;
+const studentSchema = new Schema({
+    name: String,
+    area: String,
+    gender: String
+});
+
+// model
+const Student = mongoose.model('Student', studentSchema);
+
 // server start
 app.listen(port, () => {
     console.log(`Server is running on ${port}`);
@@ -47,9 +62,9 @@ app.get("/user/:id", (req, res) => {
 });
 
 // not mandatory params
-app.get("/student/:name?", (req, res) => {
+/* app.get("/student/:name?", (req, res) => {
     res.send(`Student Name: ${req.params.name ?? "No Name"}`);
-});
+}); */
 
 // query params
 app.get("/employee", (req, res) => {
@@ -69,4 +84,38 @@ const checkAge = (req, res, next) => {
 
 app.get("/drink", checkAge, (req, res) => {
     res.send(`Your age is ${req.query.age}. You are allowed to drink`);
+});
+
+// get all student
+app.get("/students", (req, res) => {
+    Student.find().then((data) => {
+        res.json(data);
+    });
+});
+
+// get student by id
+app.get("/student/:id", async (req, res) => {
+    const data = await Student.findById(req.params.id);
+    res.json(data);
+});
+
+// post student
+app.post("/student", (req, res) => {
+    Student.create(req.body).then((data) => {
+        res.json(data);
+    });
+});
+
+// update student
+app.put("/student/:id", (req, res) => {
+    Student.updateOne({ _id: req.params.id }, req.body).then((data) => {
+        res.json(data);
+    });
+});
+
+// delete student
+app.delete("/student/:id", (req, res) => {
+    Student.deleteOne({ _id: req.params.id }).then((data) => {
+        res.json(data);
+    });
 });
